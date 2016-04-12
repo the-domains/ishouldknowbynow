@@ -1,28 +1,40 @@
-name: ishouldknowbynow
-favicon: null
-layout_spectrum: 0.7663495026063174
-typography_spectrum: 0.44566990761086345
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.7663495026063174
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.5274127481970936
+  brandStrength: 0.8219386013224721
+  rhythmicContrast: 0.3373251559678465
   brandColors:
     - '#E0FBFC'
     - '#C2DFE3'
     - '#9DB4C0'
     - '#5C6B73'
     - '#253237'
-  brandStrength: 0.8219386013224721
   lightness: 0.2498954338952899
-  saturation: 0.5274127481970936
-  rhythmicContrast: 0.3373251559678465
 purpose: []
+favicon: null
+name: ishouldknowbynow
+typography_spectrum: 0.4456699076108634
